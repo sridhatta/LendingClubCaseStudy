@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Project Name: Lending Club Case Study
+> Analysis of Loan applicants to reduce defaulters
 
 
 ## Table of Contents
@@ -11,38 +11,39 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The Lending club has the records of the loan data of which the EDA was conducted to find out the driver variable responsible for rise in defaulters.
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- The univariate analysis had the trends of data which are discussed in the notebook file for each variable of which interestingly the data of loan amount,funding of loan amount, loan amount invested had the same trend and high correlation.
+- The loan term was higher in number for 36 months.
+- Majority of loan applicants were with 15% ROI.
+- For the defaulters category the interquartile range of loan amount,funded amount and loan amount was higher then non-defaulters category.
+- Loan applicants from Rent housing background were in greater probability of getting into defaulters list then other housing background.
+- The Loan appplicants whose income source was verified were in less chance of becoming defaulters.
+- Debt consolidation were in highest numbers of loan applicants who were landing into defaulters.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3.6
+- Seaborn
+- Pandas
+- matlplotlib
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was submitted as case study to the epgml programe iiitb
+
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@sridhatta] - feel free to contact me!
 
 
 <!-- Optional -->
